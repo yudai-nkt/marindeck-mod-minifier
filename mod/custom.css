@@ -1,0 +1,12 @@
+/* Hide column numbers on the top left corner. */
+.column-number {
+  display: none;
+}
+
+/* Expand the tweet body area so that tweet details can be easily opened. */
+html.txt-size--13 article .tweet-body {
+  position: relative;
+  top: -16px;
+  padding-top: 16px;
+  margin-bottom: -16px;
+}

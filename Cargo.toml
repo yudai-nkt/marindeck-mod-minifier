@@ -1,0 +1,12 @@
+[package]
+name = "marindeck-minifier"
+version = "0.1.0"
+authors = ["Yudai NAKATA <yudai.nkt@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+minifier = "0.0.41"
+wasm-bindgen = "0.2"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
